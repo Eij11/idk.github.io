@@ -1,0 +1,448 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} */
+
+/* Kug gusto mo maglagay ng background img */
+.navigation{
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(5, 5, 70, 0.243),  rgba(87, 194, 255, 0.245)), url(/Images/Eljon-pnng-01.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: #000031;
+
+}
+
+/* 
+======================================================
+Navigation
+======================================================
+*/
+.navigation {
+    height: 130vh;
+    width: 100%;
+    /* background-color: rgb(0, 0, 49); */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5px;
+
+
+    border: 1px ;
+    /* background: rgb(18,18,180); */
+    background: linear-gradient(0deg, rgba(18,18,180,0) 0%, rgba(10, 10, 119, 0.263) 33%, rgba(7, 7, 85, 0.464) 65%, rgba(5,5,70,1) 100%);
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;  
+}
+
+.title-icon img{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;  
+    margin-top: 5px;
+}
+
+.title-icon h2{
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+}
+
+ul, li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+ul, li, a{
+    color: white;
+    text-decoration: none;
+}
+
+ul, li, a:hover{
+    color: rgb(8, 0, 255);
+    transition: .3s ease;
+}
+
+.slide-up-animation:hover, .title-icon h2:hover {
+    background: rgb(47,255,200);
+    background: linear-gradient(90deg, rgba(47,255,200,1) 0%, rgba(0,99,255,1) 50%, rgba(255,47,194,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+/* 
+======================================================
+Content Home
+======================================================
+*/
+
+.content-home{
+    /* (moves right, moves down) */
+    /* transform: translate(700px, 100px); */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+}
+
+.content-home-big{
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.content-home{
+    letter-spacing: 2px;
+    font-weight: none;
+}
+
+.color-span-home{
+    background-color: #006eff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+/* 
+======================================================
+Box Between
+======================================================
+*/
+.box-between-one{
+    border: solid 1px #03254c;
+    background-color: #03254c;
+    color: white;
+    width: 55%;
+    height: 40%;
+
+    margin: 0 auto;
+    transform: translate(0px, -180px);
+
+    text-align: center;
+}
+
+.box-icon-one{
+
+    width: 400px;
+    height: 400px;
+
+    transform: translate(0px, -100px);
+
+}
+
+.box-info-one{
+    padding: 10%;
+    transform: translate(0px, -290px);
+}
+
+.cv-button-link {
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+
+    /* Kung anchor link, dapat kasama to */
+    display: inline-block;
+    transform: translate(0px, -350px);
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: Transparent;
+    border: solid 1px #006eff;
+    cursor:pointer;    
+    transition: 0.5s;
+}
+
+.cv-button-link:hover{
+    background-color: #006eff;
+    color: white;
+}
+
+
+/* 
+======================================================
+About Me
+======================================================
+*/
+
+.about-me{
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(39, 39, 39, 0.675), rgba(39, 39, 39, 0.851)), url(/Images/laptop-cofee-2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: #000031;
+
+}
+
+.about-me {
+    height: 130vh;
+    width: 100%;
+}
+
+/* Experience Part */
+.main-container-experience{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-experience{
+    color: white;
+}
+
+.container-experience p{
+    letter-spacing: 3px;
+}
+
+.experience-color{
+    color: #006eff !important;
+}
+
+
+/* 
+======================================================
+Progress Bar
+======================================================
+*/
+
+.progress-bar-container{
+    color: white;
+
+    display: flex;
+    justify-content: center;    
+}
+.progress-bar-container p{
+    text-align: left !important;
+}
+/* --------------------- */
+/* Universal - para magkaka align sila*/
+.progress-1, .progress-2, .progress-3, .progress-4, .progress-5{
+    margin-top: 3px;
+}
+
+.labels-progress-1, .labels-percent-1 {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+    .progress-1{
+        transform: translateX(30px);
+    }
+    .labels-percent-1{
+        transform: translateX(-80px);
+    }
+
+/* ------------------------------------- */
+/* Two*/
+
+.labels-progress-2, .labels-percent-2 {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+    .labels-progress-2{
+        transform: translateX(-1px);
+    }
+
+    .progress-2 {
+        transform: translateX(30px);
+    }
+    .labels-percent-2{
+        transform: translateX(-180px);
+    }
+
+/* ------------------------------------- */
+/* Three*/
+
+.labels-progress-3, .labels-percent-3 {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+    .labels-progress-3{
+        transform: translateX(-24px);
+    }
+
+    .progress-3 {
+        transform: translateX(54px);
+    }
+    .labels-percent-3{
+        transform: translateX(-156px);
+    }
+
+/* ------------------------------------- */
+/* Four*/
+
+.labels-progress-4, .labels-percent-4 {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+    .labels-progress-4{
+        transform: translateX(3px);
+    }
+
+    .progress-4 {
+        transform: translateX(26px);
+    }
+    .labels-percent-4{
+        transform: translateX(-140px);
+    }
+
+
+/* ------------------------------------- */
+/* Five*/
+
+.labels-progress-5, .labels-percent-5 {
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+    .labels-progress-5{
+        transform: translateX(-6px);
+    }
+
+    .progress-5 {
+        transform: translateX(36px);
+    }
+    .labels-percent-5{
+        transform: translateX(-130px);
+    }
+
+
+
+/* 
+======================================================
+PROJECTS
+======================================================
+*/
+
+.main-container-project{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(180, 58, 123, 0.588) 0%, rgba(29, 78, 253, 0.549) 50%, rgba(69, 252, 249, 0.532) 100%), url(/Images/blueprint-hq.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: #006eff;
+}
+
+.container-project{
+    text-align: center;
+    color: white;
+}
+.container-project p{
+    letter-spacing: 3px;
+}
+.experience-color-2{
+    color: #08264f;
+}
+
+.project-images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.project-images img{
+    width: 250px;
+    height: 250px;
+}
+
+.project-images-wrapper{
+    position: relative;
+}
+
+.project-images-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-images-wrapper:hover .project-images-overlay{
+    opacity: 1;
+}
+
+.project-images-description{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* 
+======================================================
+GALLERY
+======================================================
+*/
+
+.main-container-gallery{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.615) 0%, rgba(3, 15, 60, 0.44) 50%, rgba(24, 24, 24, 0.615) 100%), url(/Images/abstract.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: #006eff;
+}
+
+.container-gallery{
+    text-align: center;
+    color: white;
+}
+
+.container-gallery p{
+    letter-spacing: 3px;
+}
+
+.gallery-color-3{
+    color: #006eff;
+}
