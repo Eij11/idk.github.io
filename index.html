@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eljon Tangalin || Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/Images/ej-logo-png.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="Animation.css">
+
+    <script src="Functions.js"></script>
+    <script defer src="Scroll_Animation.js"></script>
+</head>
+<body>
+
+    <div class="navigation">
+        
+        <!-- <img src="/Images/Se me.jpg" alt=""> -->
+        <nav>
+            <div  class= "title-icon">
+                <img class="slide-up-animation" src="/Images/ej-icon-white-new.png" alt="EJ Logo">
+                <h2 class="slide-up-animation">Ej</h2>
+            </div>
+
+            <ul>
+                <li class="slide-up-animation"><a href="" >Home</a></li>
+                <li class="slide-up-animation"><a href="#navigation-experience" onclick="smoothScroll(event, '#navigation-experience')">Experience</a></li>
+                <li class="slide-up-animation"><a href="">Projects</a></li>
+                <li class="slide-up-animation"><a href="">Interest</a></li>
+                <li class="slide-up-animation"><a href="">Gallery</a> </li>
+            </ul>
+
+            <!-- <button type="button">Test</button> -->
+        </nav>
+
+        <div class="content-home">
+            <div class="content-home-big">
+                <h1 class="slide-left-animation">I<span class="color-span-home">'</span>M</h1>
+                <h1 class="slide-left-animation">ELJON</h1>
+                <h1 class="slide-left-animation">TANGALIN<span class="color-span-home">.</span></h1>
+            </div>
+
+            <div class="content-home-small">
+                <p class="slide-left-animation">SOPHOMORE COMPUTER SCIENCE STUDENT</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ============================== -->
+<!-- Content 2 -->
+<!-- ============================== -->
+    <div class="about-me">
+        <div class="box-between-one">
+            <img src="/Images/ej-icon-white.png" alt="" class="box-icon-one">
+    
+            <p class="box-info-one">I'M ELJON TANGALIN, CURRENTLY TAKING COMPUTER SCIENCE. THOUGH THE JOURNEY IS LONG, AND THERE ARE LOT MORE TO STUDY. I ASPIRE TO BE A DEVELOPER SOMEDAY!</p>
+
+            <a class="cv-button-link" href="CV.html" target="_blank">CURRICULUM VITAE</a>    
+        </div>
+
+    <!-- ============================== -->
+    <!-- Experience (with progress bars) -->
+    <!-- ============================== -->
+        <div class="main-container-experience">
+            <div class="container-experience">
+                <h1><span id="navigation-experience" class="experience-color">01</span> EXPERIENCE</h1>
+                <p>MY KNOWLEDGE IN SOFTWARE</p>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+            <div class="main-progress-bar-container">
+                <div class="progress-bar-container">
+                    <p class="labels-progress-1">HTML & CSS</p>
+                    <div class="progress-1" id="progress-1"></div>
+                    <p class="labels-percent-1">80%</p>
+                </div>
+
+                <br>
+
+                <div class="progress-bar-container">
+                    <p class="labels-progress-2">JAVASCRIPT</p>
+                    <div class="progress-2" id="progress-2"></div>
+                    <p class="labels-percent-2">60%</p>
+                </div>
+
+                <br>
+
+                <div class="progress-bar-container">
+                    <p class="labels-progress-3">JAVA</p>
+                    <div class="progress-3" id="progress-3"></div>
+                    <p class="labels-percent-3">60%</p>
+                </div>
+
+                <br>
+
+                <div class="progress-bar-container">
+                    <p class="labels-progress-4">VISUAL BASIC</p>
+                    <div class="progress-4" id="progress-4"></div>
+                    <p class="labels-percent-4">70%</p>
+                </div>
+
+                <br>
+
+                <div class="progress-bar-container">
+                    <p class="labels-progress-5">PREMIERE</p>
+                    <div class="progress-5" id="progress-5"></div>
+                    <p class="labels-percent-5">70%</p>
+                </div>
+            </div>
+        
+    </div>
+
+<!-- ============================== -->
+<!-- Projects --->
+<!-- ============================== -->
+    <div class="main-container-project">
+            <div class="container-project">
+                <br><br><br><br>
+                <h1><span id="navigation-projects" class="experience-color">02</span> PROJECTS</h1>
+                <p>PROJECTS MADE IN A COURSE OF 2 MONTHS</p>
+            </div>
+    </div>
+
+
+</body>
+</html>

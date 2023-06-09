@@ -1,0 +1,262 @@
+/* ========================= */
+/* Home */
+/* ========================= */
+
+/* ayan sa js */
+/* .slide-up-animation{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(40px);
+    transition: all 2s;
+}
+
+.slide-up-animation.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0px);
+} */
+
+@keyframes SlideUp {
+    /* Start from 40px bottom */
+    from {
+         transform: translateY(40px);
+    }
+
+    /* Ends at the original position */
+    to{
+        transform: translateX(0px);
+    }
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}   
+
+.slide-up-animation{
+    animation-name: SlideUp;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes SlideToLeft {
+    from {
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}   
+
+.slide-left-animation{
+    animation-name: SlideToLeft;
+    animation-duration: 3s;
+}
+
+
+
+/* 
+======================================================
+Progress Bar
+======================================================
+ */
+ /* Eto yung format sa js */
+.progress-1{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+     
+     background-size: 0;
+     transition-duration: 3s;
+}
+
+.progress-1.show{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+
+     background-size:80%;
+}
+
+
+.labels-percent-1{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 4s;
+}
+
+.labels-percent-1.show{
+    opacity: 1;
+    filter: blur(0);
+} 
+
+/* ------------------------------------- */
+/* Two*/
+.progress-2{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+     
+     background-size: 0;
+     transition-duration: 3s;
+}
+
+.progress-2.show{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+
+     background-size:60%;
+}
+
+.labels-percent-2{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 4s;
+}
+
+.labels-percent-2.show{
+    opacity: 1;
+    filter: blur(0);
+} 
+
+
+/* ------------------------------------- */
+/* Three*/
+.progress-3{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+     
+     background-size: 0;
+     transition-duration: 3s;
+}
+
+.progress-3.show{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+
+     background-size:60%;
+}
+
+.labels-percent-3{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 4s;
+}
+
+.labels-percent-3.show{
+    opacity: 1;
+    filter: blur(0);
+} 
+
+
+/* ------------------------------------- */
+/* Four*/
+.progress-4{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+     
+     background-size: 0;
+     transition-duration: 3s;
+}
+
+.progress-4.show{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+
+     background-size:70%;
+}
+
+.labels-percent-4{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 4s;
+}
+
+.labels-percent-4.show{
+    opacity: 1;
+    filter: blur(0);
+} 
+
+/* ------------------------------------- */
+/* Five*/
+.progress-5{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+     
+     background-size: 0;
+     transition-duration: 3s;
+}
+
+.progress-5.show{
+    width:500px;
+    height:10px;
+    background:
+     linear-gradient(#006eff 0 0) 0/0% no-repeat
+     #dddddd00;
+
+     background-size:70%;
+}
+
+.labels-percent-5{
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 4s;
+}
+
+.labels-percent-5.show{
+    opacity: 1;
+    filter: blur(0);
+} 
+
+.project-images-wrapper{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 3s;
+}
+
+.project-images-wrapper.show{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+

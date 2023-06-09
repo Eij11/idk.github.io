@@ -1,0 +1,54 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+
+    border: 1px solid rgb(193, 193, 193);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px #c3c3c3;
+    
+    width:20%;
+    height: 70%;
+    overflow: hidden;
+
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.label-1 {
+    position: relative;
+    left: -40px;
+}
+.label-2 {
+    position: relative;
+    left: -30px;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5%;
+    /* border: 2px, solid; */
+    text-align: center;
+}
+
+.results{
+    padding: 10px 10px;
+    border: solid 1px rgb(128, 128, 128);
+}
